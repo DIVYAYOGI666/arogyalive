@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="hi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title> - विश्वसनीय हिंदी स्वास्थ्य ब्लॉग</title>
+    <meta
+      name="description"
+      content="आरोग्य वार्ता पर डायबिटीज, ब्लड प्रेशर, थायरॉइड, प्रेग्नेंसी डाइट, न्यूट्रिशन, इम्युनिटी और प्रिवेंटिव हेल्थकेयर की विश्वसनीय हिंदी जानकारी पढ़ें।"
+    />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#0f766e" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="hi_IN" />
+    <meta property="og:title" content="आरोग्य वार्ता - विश्वसनीय हिंदी स्वास्थ्य ब्लॉग" />
+    <meta
+      property="og:description"
+      content="परिवार के रोजमर्रा स्वास्थ्य फैसलों के लिए साफ, सुरक्षित और समझने योग्य हिंदी मार्गदर्शन।"
+    />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&w=1200&q=80" />
+    <link rel="canonical" href="/" />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "आरोग्य वार्ता",
+        "inLanguage": "hi-IN",
+        "description": "डायबिटीज, ब्लड प्रेशर, थायरॉइड, प्रेग्नेंसी, न्यूट्रिशन और प्रिवेंटिव हेल्थ पर हिंदी स्वास्थ्य जानकारी।",
+        "publisher": {
+          "@type": "Organization",
+          "name": "आरोग्य वार्ता"
+        },
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "/?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">मुख्य सामग्री पर जाएं</a>
+    <header class="site-header">
+      <nav class="nav wrap" aria-label="मुख्य नेविगेशन">
+        <a class="brand" href="#hero" aria-label="आरोग्य वार्ता होम">
+          <span class="brand-mark" aria-hidden="true">+</span>
+          <span>आरोग्य वार्ता</span>
+        </a>
+        <button class="icon-button menu-toggle" type="button" aria-expanded="false" aria-controls="site-menu">
+          <span></span><span></span><span></span>
+          <span class="sr-only">मेन्यू खोलें</span>
+        </button>
+        <div id="site-menu" class="nav-links">
+          <a href="#diabetes">मधुमेह</a>
+          <a href="#blood-pressure">ब्लड प्रेशर</a>
+          <a href="#thyroid">थायरॉइड</a>
+          <a href="#pregnancy">प्रेग्नेंसी</a>
+          <a href="#weight-loss">वजन</a>
+          <a href="#nutrition">न्यूट्रिशन</a>
+          <a href="#immunity">इम्युनिटी</a>
+        </div>
+        <form class="search" role="search">
+          <label class="sr-only" for="search-input">लेख खोजें</label>
+          <input id="search-input" type="search" name="q" placeholder="खोजें..." autocomplete="off" />
+        </form>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section id="hero" class="hero">
+        <div class="hero-media" role="img" aria-label="स्वस्थ भोजन, पानी और फल"></div>
+        <div class="hero-content wrap">
+          <p class="eyebrow">विश्वसनीय हिंदी स्वास्थ्य जानकारी</p>
+          <h1>स्वस्थ जीवन का आसान तरीका</h1>
+          <p>
+            डायबिटीज, ब्लड प्रेशर, थायरॉइड, प्रेग्नेंसी, पोषण और रोजमर्रा की सेहत पर सरल,
+            सावधान और स्रोत-आधारित मार्गदर्शन।
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#trending">ट्रेंडिंग पढ़ें</a>
+            <a class="button secondary" href="#lab-tests">लैब टेस्ट देखें</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="notice wrap" aria-label="स्वास्थ्य अस्वीकरण">
+        <strong>ध्यान दें:</strong>
+        यह जानकारी शिक्षा के लिए है। दवा, डायग्नोसिस, गर्भावस्था, डायबिटीज, ब्लड प्रेशर या
+        किसी बीमारी के इलाज में बदलाव से पहले डॉक्टर या योग्य स्वास्थ्य विशेषज्ञ से सलाह लें।
+      </section>
+
+      <section class="category-strip wrap" aria-label="श्रेणियां" id="categories"></section>
+
+      <section id="trending" class="section wrap">
+        <div class="section-head">
+          <h2>ट्रेंडिंग हेल्थ टॉपिक्स</h2>
+          <p>सबसे ज्यादा पढ़े जाने वाले विषय, साफ भाषा और सुरक्षित सलाह के साथ।</p>
+        </div>
+        <div class="grid cards" id="trending-grid"></div>
+      </section>
+
+      <div id="sections"></div>
+
+      <section id="lab-tests" class="section wrap split-section">
+        <div>
+          <div class="section-head">
+            <h2>लैब टेस्ट और मेडिकल अवेयरनेस</h2>
+            <p>रिपोर्ट समझने के लिए सामान्य संदर्भ। लैब और व्यक्ति के हिसाब से रेंज बदल सकती है।</p>
+          </div>
+          <div class="test-list">
+            <article>
+              <h3>फास्टिंग ब्लड शुगर</h3>
+              <p>आम संदर्भ: लगभग 70-99 mg/dL। 126 mg/dL या अधिक रीडिंग पर डॉक्टर से जांच जरूरी है।</p>
+            </article>
+            <article>
+              <h3>ब्लड प्रेशर</h3>
+              <p>सामान्य श्रेणी: 120/80 mm Hg से कम। लगातार 130/80 या अधिक पर चिकित्सकीय सलाह लें।</p>
+            </article>
+            <article>
+              <h3>थायरॉइड प्रोफाइल</h3>
+              <p>TSH रेंज लैब के अनुसार बदलती है। गर्भावस्था और दवाओं में लक्ष्य अलग हो सकते हैं।</p>
+            </article>
+            <article>
+              <h3>लिपिड प्रोफाइल</h3>
+              <p>कुल कोलेस्ट्रॉल के साथ LDL, HDL और ट्राइग्लिसराइड्स को मिलाकर जोखिम समझा जाता है।</p>
+            </article>
+          </div>
+        </div>
+        <aside class="awareness-panel">
+          <h3>कब जांच करवाएं?</h3>
+          <p>परिवार में डायबिटीज, हाई BP, हार्ट रोग, थायरॉइड या मोटापा हो तो नियमित जांच पर बात करें।</p>
+          <p>30 साल के बाद बेसलाइन हेल्थ चेकअप और 45 साल के बाद अधिक नियमित स्क्रीनिंग उपयोगी हो सकती है।</p>
+          <p>गर्भावस्था, तेज वजन बदलाव, चक्कर, सांस फूलना, सीने में दर्द या असामान्य थकान में देरी न करें।</p>
+        </aside>
+      </section>
+
+      <section id="tips" class="section wrap">
+        <div class="section-head">
+          <h2>आज के हेल्थ टिप्स</h2>
+          <p>छोटी आदतें जो लंबे समय में फर्क डालती हैं।</p>
+        </div>
+        <div class="grid tip-grid" id="tips-grid"></div>
+      </section>
+
+      <section id="sources" class="section wrap sources">
+        <div class="section-head">
+          <h2>विश्वसनीय स्रोत</h2>
+          <p>मुख्य आंकड़ों और सावधानियों को आधिकारिक स्वास्थ्य स्रोतों से मिलाया गया है।</p>
+        </div>
+        <ul>
+          <li><a href="https://www.who.int/news-room/fact-sheets/detail/physical-activity" target="_blank" rel="noopener">WHO: Physical activity recommendations</a></li>
+          <li><a href="https://www.cdc.gov/high-blood-pressure/about/index.html" target="_blank" rel="noopener">CDC: High blood pressure basics</a></li>
+          <li><a href="https://diabetes.org/about-diabetes/diagnosis" target="_blank" rel="noopener">American Diabetes Association: Diabetes diagnosis</a></li>
+          <li><a href="https://www.acog.org/womens-health/experts-and-stories/ask-acog/how-much-weight-should-i-gain-during-pregnancy" target="_blank" rel="noopener">ACOG: Pregnancy weight gain</a></li>
+        </ul>
+      </section>
+
+      <section id="faqs" class="section wrap">
+        <div class="section-head">
+          <h2>अक्सर पूछे जाने वाले सवाल</h2>
+          <p>सामान्य जवाब। व्यक्तिगत सलाह के लिए अपनी मेडिकल हिस्ट्री के साथ डॉक्टर से मिलें।</p>
+        </div>
+        <div class="faq-list" id="faq-list"></div>
+      </section>
+    </main>
+
+    <aside class="article-drawer" id="article-drawer" aria-hidden="true">
+      <div class="drawer-backdrop" data-close-drawer></div>
+      <article class="drawer-card" role="dialog" aria-modal="true" aria-labelledby="drawer-title">
+        <button class="icon-button drawer-close" type="button" data-close-drawer aria-label="लेख बंद करें">×</button>
+        <p class="eyebrow" id="drawer-category"></p>
+        <h2 id="drawer-title"></h2>
+        <img id="drawer-image" alt="" />
+        <p id="drawer-summary"></p>
+        <ul id="drawer-points"></ul>
+        <p class="drawer-note">व्यक्तिगत स्थिति, दवाओं, उम्र और जांच रिपोर्ट के अनुसार सलाह बदल सकती है।</p>
+      </article>
+    </aside>
+
+    <footer class="site-footer">
+      <div class="wrap footer-grid">
+        <div>
+          <h2>आरोग्य वार्ता</h2>
+          <p>साफ, भरोसेमंद और व्यवहारिक हिंदी स्वास्थ्य जानकारी।</p>
+        </div>
+        <nav aria-label="फुटर लिंक">
+          <a href="#sources">स्रोत</a>
+          <a href="#faqs">FAQs</a>
+          <a href="#lab-tests">लैब टेस्ट</a>
+          <a href="#hero">ऊपर जाएं</a>
+        </nav>
+      </div>
+      <p class="copyright">© 2026 आरोग्य वार्ता। सर्वाधिकार सुरक्षित।</p>
+    </footer>
+
+    <script src="app.js" defer></script>
+  </body>
+</html>
